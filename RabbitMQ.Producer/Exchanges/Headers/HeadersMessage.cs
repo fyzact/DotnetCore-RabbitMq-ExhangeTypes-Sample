@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Framing;
+using RabbitMQ.Producer.Interfaces;
 
 namespace RabbitMQ.Producer
 {

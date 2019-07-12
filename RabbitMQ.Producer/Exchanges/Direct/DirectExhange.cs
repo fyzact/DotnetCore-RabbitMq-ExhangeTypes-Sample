@@ -1,4 +1,5 @@
 using RabbitMQ.Client;
+using RabbitMQ.Producer.Interfaces;
 
 namespace RabbitMQ.Producer
 {
