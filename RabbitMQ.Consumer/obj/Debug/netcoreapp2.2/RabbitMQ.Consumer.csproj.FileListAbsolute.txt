@@ -1,0 +1,11 @@
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/obj/Debug/netcoreapp2.2/RabbitMQ.Consumer.csprojAssemblyReference.cache
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/obj/Debug/netcoreapp2.2/RabbitMQ.Consumer.csproj.CoreCompileInputs.cache
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/obj/Debug/netcoreapp2.2/RabbitMQ.Consumer.AssemblyInfoInputs.cache
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/obj/Debug/netcoreapp2.2/RabbitMQ.Consumer.AssemblyInfo.cs
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/bin/Debug/netcoreapp2.2/RabbitMQ.Consumer.deps.json
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/bin/Debug/netcoreapp2.2/RabbitMQ.Consumer.runtimeconfig.json
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/bin/Debug/netcoreapp2.2/RabbitMQ.Consumer.runtimeconfig.dev.json
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/bin/Debug/netcoreapp2.2/RabbitMQ.Consumer.dll
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/bin/Debug/netcoreapp2.2/RabbitMQ.Consumer.pdb
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/obj/Debug/netcoreapp2.2/RabbitMQ.Consumer.dll
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Consumer/obj/Debug/netcoreapp2.2/RabbitMQ.Consumer.pdb

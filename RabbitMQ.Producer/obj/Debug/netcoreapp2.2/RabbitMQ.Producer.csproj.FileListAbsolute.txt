@@ -1,0 +1,11 @@
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/bin/Debug/netcoreapp2.2/RabbitMQ.Producer.deps.json
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/bin/Debug/netcoreapp2.2/RabbitMQ.Producer.runtimeconfig.json
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/bin/Debug/netcoreapp2.2/RabbitMQ.Producer.runtimeconfig.dev.json
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/bin/Debug/netcoreapp2.2/RabbitMQ.Producer.dll
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/bin/Debug/netcoreapp2.2/RabbitMQ.Producer.pdb
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/obj/Debug/netcoreapp2.2/RabbitMQ.Producer.csprojAssemblyReference.cache
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/obj/Debug/netcoreapp2.2/RabbitMQ.Producer.csproj.CoreCompileInputs.cache
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/obj/Debug/netcoreapp2.2/RabbitMQ.Producer.AssemblyInfoInputs.cache
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/obj/Debug/netcoreapp2.2/RabbitMQ.Producer.AssemblyInfo.cs
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/obj/Debug/netcoreapp2.2/RabbitMQ.Producer.dll
+/home/feyyaz/Masaüstü/gitsampleprojects/DotnetCore-RabbitMq-ExhangeTypes-Sample/RabbitMQ.Producer/obj/Debug/netcoreapp2.2/RabbitMQ.Producer.pdb
