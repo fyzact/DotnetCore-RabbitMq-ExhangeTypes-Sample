@@ -1,6 +1,9 @@
 ﻿using System;
 using RabbitMQ.Client;
-using RabbitMQ.Client.Events;
+using RabbitMQ.Producer.Exchanges.Direct;
+using RabbitMQ.Producer.Exchanges.Fanout;
+using RabbitMQ.Producer.Exchanges.Headers;
+using RabbitMQ.Producer.Exchanges.Topic;
 using RabbitMQ.Producer.Interfaces;
 
 namespace RabbitMQ.Producer
@@ -14,8 +17,6 @@ namespace RabbitMQ.Producer
             var producer=CreateSendMessage(ExchangeType.Headers);
             producer.SendMessage();
         }
-
-
 
         public  static ISendMessage CreateSendMessage(string exchangeType){
 

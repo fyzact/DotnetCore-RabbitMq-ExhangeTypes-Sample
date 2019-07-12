@@ -1,8 +1,8 @@
 using System.Text;
 
-namespace RabbitMQ.Producer
+namespace RabbitMQ.Producer.Helper
 {
-    public static class StringExtentions{
+    public static class StringExtensions{
      public static byte[] GetBytes(this string value){
           return System.Text.Encoding.ASCII.GetBytes(value);
       }

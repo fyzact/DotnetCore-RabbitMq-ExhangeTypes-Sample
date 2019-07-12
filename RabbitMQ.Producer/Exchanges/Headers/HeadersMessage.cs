@@ -2,9 +2,10 @@ using System;
 using System.Collections.Generic;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Framing;
+using RabbitMQ.Producer.Helper;
 using RabbitMQ.Producer.Interfaces;
 
-namespace RabbitMQ.Producer
+namespace RabbitMQ.Producer.Exchanges.Headers
 {
     public class HeadersMessage : ISendMessage
     {

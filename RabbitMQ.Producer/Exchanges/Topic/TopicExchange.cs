@@ -1,7 +1,8 @@
 using RabbitMQ.Client;
+using RabbitMQ.Producer.Helper;
 using RabbitMQ.Producer.Interfaces;
 
-namespace RabbitMQ.Producer
+namespace RabbitMQ.Producer.Exchanges.Topic
 {
     public class TopicExchange:IExchangeFactory{
         public static string EXCHANGE_NAME = "topic-exchange";

@@ -1,8 +1,9 @@
 using System;
 using RabbitMQ.Client;
+using RabbitMQ.Producer.Helper;
 using RabbitMQ.Producer.Interfaces;
 
-namespace RabbitMQ.Producer
+namespace RabbitMQ.Producer.Exchanges.Direct
 {
     public class DirectMessage : ISendMessage
     {

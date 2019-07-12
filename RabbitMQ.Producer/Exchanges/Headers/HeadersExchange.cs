@@ -1,9 +1,10 @@
 
 using System.Collections.Generic;
 using RabbitMQ.Client;
+using RabbitMQ.Producer.Helper;
 using RabbitMQ.Producer.Interfaces;
 
-namespace RabbitMQ.Producer
+namespace RabbitMQ.Producer.Exchanges.Headers
 {
     public class HeadersExchange : IExchangeFactory
     {
