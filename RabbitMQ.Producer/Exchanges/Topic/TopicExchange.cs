@@ -23,16 +23,16 @@ namespace RabbitMQ.Producer.Exchanges.Topic
         {
             var connection = RabbitHelper.GetConnection;
             var channel = connection.CreateModel();
-            channel.ExchangeDeclare(EXCHANGE_NAME, ExchangeType.Headers, true);
+            channel.ExchangeDeclare(EXCHANGE_NAME, ExchangeType.Topic, true);
 
             channel.QueueDeclare(QUEUE_NAME_1, true, false, false, null);
             channel.QueueBind(QUEUE_NAME_1, EXCHANGE_NAME, ROUTING_PATTERN_1);
 
-            channel.QueueDeclare(QUEUE_NAME_1, true, false, false, null);
-            channel.QueueBind(QUEUE_NAME_1, EXCHANGE_NAME, ROUTING_PATTERN_2);
+            channel.QueueDeclare(QUEUE_NAME_2, true, false, false, null);
+            channel.QueueBind(QUEUE_NAME_2, EXCHANGE_NAME, ROUTING_PATTERN_2);
 
-            channel.QueueDeclare(QUEUE_NAME_1, true, false, false, null);
-            channel.QueueBind(QUEUE_NAME_1, EXCHANGE_NAME, ROUTING_PATTERN_3);
+            channel.QueueDeclare(QUEUE_NAME_3, true, false, false, null);
+            channel.QueueBind(QUEUE_NAME_3, EXCHANGE_NAME, ROUTING_PATTERN_3);
         }
     }
 

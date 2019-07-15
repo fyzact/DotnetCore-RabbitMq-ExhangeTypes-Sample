@@ -12,9 +12,9 @@ namespace RabbitMQ.Producer
     {
         static void Main(string[] args)
         {
-            var exhangeFactory=CreateExchange(ExchangeType.Headers);
+            var exhangeFactory=CreateExchange(ExchangeType.Topic);
             exhangeFactory.CreateExChangeAndQueue();
-            var producer=CreateSendMessage(ExchangeType.Headers);
+            var producer=CreateSendMessage(ExchangeType.Topic);
             producer.SendMessage();
         }
 

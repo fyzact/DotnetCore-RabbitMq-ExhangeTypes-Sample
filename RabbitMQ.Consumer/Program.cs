@@ -8,7 +8,7 @@ namespace RabbitMQ.Consumer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            
             CreateConsumer("direct-queue-1");
             CreateConsumer("direct-queue-2");
             CreateConsumer("direct-queue-3");
@@ -24,6 +24,7 @@ namespace RabbitMQ.Consumer
             CreateConsumer("topic-queue-1");
             CreateConsumer("topic-queue-2");
             CreateConsumer("topic-queue-3");
+            Console.ReadKey();
         }
 
         static void CreateConsumer(string queue){
@@ -34,7 +35,7 @@ namespace RabbitMQ.Consumer
         {
             var body = ea.Body;
             var message = body.GetString();
-            Console.WriteLine(" Received {0}", message);
+            Console.WriteLine( $"{queue} Received {body.GetString()}", message);
         };
         channel.BasicConsume(queue: queue,
                              autoAck: true,
