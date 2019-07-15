@@ -42,12 +42,6 @@ namespace RabbitMQ.Consumer
         }
 
     }
-
-
-
-
-
-
  
 }
 

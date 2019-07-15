@@ -8,10 +8,10 @@ namespace RabbitMQ.Producer.Exchanges.Headers
 {
     public class HeadersExchange : IExchangeFactory
     {
-        public static string EXCHANGE_NAME = "header-exchange";
-        public static string QUEUE_NAME_1 = "header-queue-1";
-        public static string QUEUE_NAME_2 = "header-queue-2";
-        public static string QUEUE_NAME_3 = "header-queue-3";
+        public const string EXCHANGE_NAME = "header-exchange";
+        public const string QUEUE_NAME_1 = "header-queue-1";
+        public const string QUEUE_NAME_2 = "header-queue-2";
+        public const string QUEUE_NAME_3 = "header-queue-3";
         public void CreateExChangeAndQueue()
         {
             var connection = RabbitHelper.GetConnection;

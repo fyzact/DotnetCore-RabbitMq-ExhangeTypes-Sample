@@ -17,15 +17,15 @@ namespace RabbitMQ.Producer.Exchanges.Direct
 
             // First message sent by using ROUTING_KEY_1
             channel.BasicPublish(DirectExhange.EXCHANGE_NAME, DirectExhange.ROUTING_KEY_1, null, Message1.GetBytes());
-            Console.Write(" Message Sent '" + Message1 + "'");
+            Console.Write($" Message Sent {Message1}");
 
             // Second message sent by using ROUTING_KEY_2
             channel.BasicPublish(DirectExhange.EXCHANGE_NAME, DirectExhange.ROUTING_KEY_2, null, Message2.GetBytes());
-            Console.Write(" Message Sent '" + Message2 + "'");
+            Console.Write($" Message Sent {Message2}");
 
             // Third message sent by using ROUTING_KEY_3
             channel.BasicPublish(DirectExhange.EXCHANGE_NAME, DirectExhange.ROUTING_KEY_3, null, Message3.GetBytes());
-            Console.Write(" Message Sent '" + Message3 + "'");
+             Console.Write($" Message Sent {Message3}");
         }
 
     }

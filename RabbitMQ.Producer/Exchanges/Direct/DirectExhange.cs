@@ -6,13 +6,13 @@ namespace RabbitMQ.Producer.Exchanges.Direct
 {
     public class DirectExhange : IExchangeFactory
     {
-        public static string EXCHANGE_NAME = "direct-exchange";
-        public static string QUEUE_NAME_1 = "direct-queue-1";
-        public static string QUEUE_NAME_2 = "direct-queue-2";
-        public static string QUEUE_NAME_3 = "direct-queue-3";
-        public static string ROUTING_KEY_1 = "direct-key-1";
-        public static string ROUTING_KEY_2 = "direct-key-2";
-        public static string ROUTING_KEY_3 = "direct-key-3";
+        public const  string EXCHANGE_NAME = "direct-exchange";
+        public const string QUEUE_NAME_1 = "direct-queue-1";
+        public const string QUEUE_NAME_2 = "direct-queue-2";
+        public const string QUEUE_NAME_3 = "direct-queue-3";
+        public const string ROUTING_KEY_1 = "direct-key-1";
+        public const string ROUTING_KEY_2 = "direct-key-2";
+        public const string ROUTING_KEY_3 = "direct-key-3";
         public void CreateExChangeAndQueue()
         {
             var connection = RabbitHelper.GetConnection;
